@@ -2,6 +2,7 @@
 html {
    background: #5487ff;
 }
+
 @media screen and (min-width: 700px) { 
    html {
       background: url("../images/sea1.gif") no-repeat center center fixed;
