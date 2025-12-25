@@ -20,6 +20,10 @@ body {
    text-align:center;
 }
 
+#about {
+   padding-top: 50px;
+}
+
 h1 {
    font-size: 2em;
    font-family: 'Verdana';
@@ -37,5 +41,47 @@ a:link {
 
 a:visited {
     color: white;
+}
+
+/* Social widget styles */
+.social-widgets {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 0.75rem;
+   margin-top: 0.5rem;
+}
+
+.social-widget {
+   display: inline-flex;
+   align-items: center;
+   gap: 0.5rem;
+   padding: 0.45rem 0.7rem;
+   background: rgba(255,255,255,0.06);
+   border-radius: 8px;
+   color: white;
+   text-decoration: none;
+   font-weight: 500;
+   transition: transform 150ms ease, background 150ms ease;
+}
+
+.social-widget i {
+   font-size: 1.45rem;
+   line-height: 1;
+   display: inline-block;
+   color: white;
+}
+
+.social-widget span {
+   display: none;
+}
+
+.social-widget:hover {
+   transform: translateY(-3px);
+   background: rgba(255,255,255,0.12);
+}
+
+.social-widget span { 
+   display: inline-block;
 }
 
