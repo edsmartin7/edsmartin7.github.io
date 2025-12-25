@@ -1,0 +1,7 @@
+
+# os-specific files
+.DS_Store # macOS
+
+# editor
+.vscode/
+
